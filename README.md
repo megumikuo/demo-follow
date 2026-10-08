@@ -144,7 +144,7 @@ claim of higher source resolution or AI detail reconstruction. `--mp4-only`
 skips WebM for quick previews. Copy `events.json` beside each render before
 validation.
 
-For agent use, ask e.g. “用活潑風格，薄荷色圓點游標，點擊有星芒，影片快一點”.
+For agent use, ask e.g. “Use a playful style with a mint dot cursor, starburst clicks, and slightly faster pacing”.
 The agent translates that into `--preset playful` and requested overrides.
 You can also ask for a restrained tutorial, a faster product teaser, or three
 style variants of the same capture.
