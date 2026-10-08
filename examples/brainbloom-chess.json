@@ -1,0 +1,110 @@
+{
+  "url": "https://brainbloom-drab.vercel.app/play/chess",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "capture_scale": 2,
+  "settle_ms": 1800,
+  "intro_ms": 1400,
+  "tail_ms": 2200,
+  "actions": [
+    {
+      "type": "click",
+      "label": "Choose Gentle",
+      "selector": "button:has-text('Gentle')",
+      "zoom": 1.25,
+      "pre_ms": 500,
+      "after_ms": 2000,
+      "assert": {
+        "selector": "[aria-label='Chess board']",
+        "state": "visible"
+      },
+      "camera_selector": "[aria-label='Chess board']",
+      "camera_context_selectors": [
+        "button:has-text('Leave game')",
+        "button:has-text('Rules')",
+        "button:has-text('Undo')"
+      ],
+      "shot": "context",
+      "safe_margin": 12,
+      "camera_after": true
+    },
+    {
+      "type": "click",
+      "label": "Open Rules",
+      "selector": "button:has-text('Rules')",
+      "after_ms": 2000,
+      "assert": {
+        "selector": "dialog[open]",
+        "state": "visible"
+      }
+    },
+    {
+      "type": "scroll",
+      "label": "Scroll rules",
+      "selector": "dialog[open] .overflow-y-auto",
+      "dy": 700,
+      "scroll_ms": 1800,
+      "after_ms": 1600,
+      "assert": {
+        "selector": "dialog[open] .overflow-y-auto",
+        "scroll_min": 600
+      }
+    },
+    {
+      "type": "click",
+      "label": "Close Rules",
+      "selector": "dialog[open] >> role=button[name=\"Close\"] >> nth=0",
+      "after_ms": 1700,
+      "camera_selector": "[aria-label='Chess board']",
+      "camera_after": true,
+      "shot": "context",
+      "zoom": 1.25,
+      "assert": {
+        "selector": "dialog[open]",
+        "state": "hidden"
+      },
+      "camera_context_selectors": [
+        "button:has-text('Leave game')",
+        "button:has-text('Rules')",
+        "button:has-text('Undo')"
+      ],
+      "safe_margin": 12
+    },
+    {
+      "type": "click",
+      "label": "Select e2 pawn",
+      "selector": "button[aria-label='e2, White pawn']",
+      "after_ms": 1200,
+      "camera_selector": "[aria-label='Chess board']",
+      "shot": "context",
+      "zoom": 1.25,
+      "camera_context_selectors": [
+        "button:has-text('Leave game')",
+        "button:has-text('Rules')",
+        "button:has-text('Undo')"
+      ],
+      "safe_margin": 12
+    },
+    {
+      "type": "click",
+      "label": "Move e2 to e4",
+      "selector": "button[aria-label='e4, empty']",
+      "after_ms": 2100,
+      "camera_selector": "[aria-label='Chess board']",
+      "shot": "context",
+      "zoom": 1.25,
+      "assert": {
+        "selector": "button[aria-label='e4, White pawn']",
+        "state": "visible"
+      },
+      "camera_context_selectors": [
+        "button:has-text('Leave game')",
+        "button:has-text('Rules')",
+        "button:has-text('Undo')"
+      ],
+      "safe_margin": 12
+    }
+  ]
+}

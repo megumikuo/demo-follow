@@ -1,0 +1,98 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "63a0e1a28114096142bb3c0601c8b727672381ed058faf6fb43bc28c459c1bd2"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685"
+  },
+  {
+    "path": "README.md",
+    "sha256": "d296343ab8d3ac9f0e85034313b0b33c2c179511f6b883b9f8af204c6bdde644"
+  },
+  {
+    "path": "SKILL.md",
+    "sha256": "1b4f9534998b9300b0eac0d10de0d17cc325b3b4fd8bc76f870f5b5e8d0b99f8"
+  },
+  {
+    "path": "agents/openai.yaml",
+    "sha256": "150bbdf50d101deaa4847b1b6467b0d0c7f3ba4896dab55dccc76e696982d6c7"
+  },
+  {
+    "path": "examples/brainbloom-chess.json",
+    "sha256": "ac3728458234bc732b3d30440e2bdbcd92f00493b89c810e8f23eafaf3a9ddd4"
+  },
+  {
+    "path": "examples/chess-pacing.json",
+    "sha256": "f08f0c88ff3b7f1b7447b9356f17df0d20afeaa4a1f0e2b1839aab1389039db0"
+  },
+  {
+    "path": "references/action-plan.md",
+    "sha256": "a9d19c4f4eae05265e291b87e7d711c9119cc01a376e7a35408b51cf88e47112"
+  },
+  {
+    "path": "references/camera-and-validation.md",
+    "sha256": "a275be66c16f53a9a6d6050ab344124f06c5f96bce9395d204e551549fe7fed6"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "ff07b3fcd42156fd66422560d5438e3607f67739e6ff195309a377c847db51b2"
+  },
+  {
+    "path": "scripts/camera.py",
+    "sha256": "2b5b7dcb504a48bdd2fd64e490e1425ae9eb2ceb7b2c52959c9d244a1177d111"
+  },
+  {
+    "path": "scripts/install.py",
+    "sha256": "5941e7e441f3da471407759f53fdf0004ceeeaaebf4862f56c9be3352aeab502"
+  },
+  {
+    "path": "scripts/make_embed.py",
+    "sha256": "a3fe4729434b8d0e22a3838ac9f7427959e1d65fb96783de89314ca12a31520d"
+  },
+  {
+    "path": "scripts/record.py",
+    "sha256": "4ff31454679b711e94fdc7ed6ec7c53f728bf7c40fbdf3f44dc3873686ed7f5a"
+  },
+  {
+    "path": "scripts/render.py",
+    "sha256": "f5ae0bdd9f48e9a2dbcf15547c010eaa5f560f2db9218886741692fec98b5ec3"
+  },
+  {
+    "path": "scripts/style.py",
+    "sha256": "a37015860bf4db1a38caf97a89d53841f205d774ad7d84a9bea8d268c52d24ef"
+  },
+  {
+    "path": "scripts/timeline.py",
+    "sha256": "e9ee4f5057f174b9b8279f1803ac30ff585522e20a175e92a7211bbdf2828583"
+  },
+  {
+    "path": "scripts/validate_video.py",
+    "sha256": "9455ccaadcc645aa0454d37702043f725a1c5f38bf829ed66a1615df005b5489"
+  },
+  {
+    "path": "tests/test_camera.py",
+    "sha256": "8421bee0c4fc1477c73e5baf45bc1a5b45e524e98e9dc94e5c2151ab826a7c6a"
+  },
+  {
+    "path": "tests/test_embed.py",
+    "sha256": "880f054410ce804b4d20a65aed1f28cda1acdaedf6a502ca1ed67bd5cfe80721"
+  },
+  {
+    "path": "tests/test_framing.py",
+    "sha256": "053d2a65a0bf957928c6bc3e5cdd15f56a2aeefa417b34dca9d538c58b5e4a5d"
+  },
+  {
+    "path": "tests/test_install.py",
+    "sha256": "71e2889aed90ad25533b5e52f52275a45345204d8fc7992cd05adb0b70abb3e6"
+  },
+  {
+    "path": "tests/test_recording.py",
+    "sha256": "8e67ccc94942cd509906494caf171d7241044ac3f465e3f45668fba6bc6c7e66"
+  },
+  {
+    "path": "tests/test_style.py",
+    "sha256": "bb7e5e244711fbaa14bc52117aa29623d0a7a7f5a159b81823236818a198554c"
+  }
+]
