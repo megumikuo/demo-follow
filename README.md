@@ -16,7 +16,7 @@ decoded real browser video. Browser capture and rendering have separate frame ra
 Recorded on **BrainBloom**, a website created by this repository owner:
 Gentle → Rules → scroll → Close → e2–e4. The preview shows the Playful style.
 
-Watch or download the full 1080p demos (authorized GitHub sign-in required):
+Watch or download the full 1080p demos:
 
 - [Playful · mint cursor and starburst clicks](https://github.com/megumikuo/demo-follow/releases/download/v8.0.0/demo-follow-v8-playful.mp4)
 - [Studio · white pointer and teal ripples](https://github.com/megumikuo/demo-follow/releases/download/v8.0.0/demo-follow-v8-studio.mp4)
@@ -28,14 +28,14 @@ the original browser capture is 25 fps.
 ## Download
 
 Repository: [megumikuo/demo-follow](https://github.com/megumikuo/demo-follow).
-The repository and its releases are private; sign in with an authorized GitHub account.
+The repository, demo preview and release downloads are public.
 
 Get `demo-follow-v8.zip` from [Release v8.0.0](https://github.com/megumikuo/demo-follow/releases/tag/v8.0.0)
 for the installable package. The release also includes Studio, Playful and Punchy
 MP4 examples, a framing comparison, validation summary and SHA256 checksums.
 Raw captures and personal recording telemetry are excluded from Git and releases.
 
-Or clone the source with an authenticated GitHub CLI:
+Or clone the source with GitHub CLI:
 
 ```sh
 gh repo clone megumikuo/demo-follow
