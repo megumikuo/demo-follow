@@ -9,6 +9,22 @@ Camera motion follows meaningful actions, holds framing during scrolls, and
 checks the result of each planned action. Pointer timing is synchronized to
 decoded real browser video. Browser capture and rendering have separate frame rates.
 
+## Demo
+
+![Demo Follow recording a real BrainBloom chess walkthrough](docs/demo.gif)
+
+Recorded on **BrainBloom**, a website created by this repository owner:
+Gentle → Rules → scroll → Close → e2–e4. The preview shows the Playful style.
+
+Watch or download the full 1080p demos (authorized GitHub sign-in required):
+
+- [Playful · mint cursor and starburst clicks](https://github.com/megumikuo/demo-follow/releases/download/v8.0.0/demo-follow-v8-playful.mp4)
+- [Studio · white pointer and teal ripples](https://github.com/megumikuo/demo-follow/releases/download/v8.0.0/demo-follow-v8-studio.mp4)
+- [Punchy · ring cursor and faster pacing](https://github.com/megumikuo/demo-follow/releases/download/v8.0.0/demo-follow-v8-punchy.mp4)
+
+The GIF is a smaller, 8 fps preview. Full MP4 exports are 1920 × 1080 at 60 fps;
+the original browser capture is 25 fps.
+
 ## Download
 
 Repository: [megumikuo/demo-follow](https://github.com/megumikuo/demo-follow).

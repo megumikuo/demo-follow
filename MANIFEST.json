@@ -9,7 +9,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "d296343ab8d3ac9f0e85034313b0b33c2c179511f6b883b9f8af204c6bdde644"
+    "sha256": "d10761b8ada84076f66046720799c2e61c993b6f734a534c3f8451ff20d0ee64"
   },
   {
     "path": "SKILL.md",
@@ -18,6 +18,10 @@
   {
     "path": "agents/openai.yaml",
     "sha256": "150bbdf50d101deaa4847b1b6467b0d0c7f3ba4896dab55dccc76e696982d6c7"
+  },
+  {
+    "path": "docs/demo.gif",
+    "sha256": "108e364cf23643835cc2b27c734751111aefbe9e9a28e336dd74638aea4dfcff"
   },
   {
     "path": "examples/brainbloom-chess.json",
